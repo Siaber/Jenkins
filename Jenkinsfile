@@ -1,6 +1,6 @@
 node {
     stage 'name'
-    sh 'docker build -t hello .'
+    sh 'hostname'
 }
     
 
