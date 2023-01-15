@@ -1,6 +1,6 @@
 node {
-    stage 'name'
-    sh 'hostname'
+    stage 'Build Docker'
+    sh 'docker build -t app .'
 }
     
 
