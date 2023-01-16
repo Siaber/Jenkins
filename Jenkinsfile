@@ -1,6 +1,8 @@
 node {
-    stage 'Build Docker'
-    sh 'docker build -t app .'
+  stage 'Checkout'
+   checkout scm
+ 
+  stage 'Docker build'
+   docker.build('app')
+  }
 }
-    
-
