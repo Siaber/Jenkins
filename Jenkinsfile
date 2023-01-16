@@ -4,5 +4,4 @@ node {
  
   stage 'Docker build'
    docker.build('app')
-  }
 }
